@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4957913029348272633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3740348572591795363}
+  - component: {fileID: 1287652012802179341}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3740348572591795363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4957913029348272633}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.087555, y: -12.073169, z: 5.0431805}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287652012802179341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4957913029348272633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c37cb1a3a3038a46b5e9a33e2418fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  batterySpawns: {fileID: 0}
+  batteryPrefab: {fileID: 1123693314251274, guid: b741fa043c0908c499bb320804aa111b, type: 3}
+  magazineSpawns: {fileID: 0}
+  magazinePrefab: {fileID: 1335026404921736334, guid: 2329b7b9ef5696f4e9f11cf75faf9faf, type: 3}
+  windAmbienceSound:
+    Guid:
+      Data1: -2117373504
+      Data2: 1278076490
+      Data3: 1083929987
+      Data4: -637073255
+    Path: event:/Ambience/Wind
+  earieeAmbienceSound:
+    Guid:
+      Data1: 1739286389
+      Data2: 1105454605
+      Data3: -1541434717
+      Data4: -319208407
+    Path: event:/Ambience/Eariee Effects
+  masterScrollbar: {fileID: 0}
+  SFXScrollbar: {fileID: 0}
+  AmbienceScrollbar: {fileID: 0}
+  mimicMaterial: {fileID: 2100000, guid: 43a2faec583568c4e8e790ad05f719b3, type: 2}
