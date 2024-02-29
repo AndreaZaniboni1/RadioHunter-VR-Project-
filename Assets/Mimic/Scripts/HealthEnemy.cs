@@ -1,8 +1,10 @@
+using FMODUnity;
 using MimicSpace;
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class HealthEnemy : MonoBehaviour
 {
@@ -12,6 +14,9 @@ public class HealthEnemy : MonoBehaviour
     public Material mimicColor;
     public CameraSeesEnemy cameraScript;
     public int myIndex;
+    public NavMeshAgent myAgent;
+    public GameObject particlesSystem;
+    public GameObject dyingEmitter;
 
     void Start()
     {
@@ -28,12 +33,27 @@ public class HealthEnemy : MonoBehaviour
         if(currentHealth <= 0) {
             mimicColor.color = UnityEngine.Color.black;
             cameraScript.ImDead(myIndex);
-            Destroy(gameObject);}
+
+            myAgent.Stop();
+            particlesSystem.SetActive(true);
+            dyingEmitter.SetActive(true);
+            foreach (Transform child in transform)
+{
+                child.gameObject.layer = LayerMask.NameToLayer("Default"); 
+            }
+            StartCoroutine(DieAfterSeconds(3.5f));
+        }
     }
         
     IEnumerator RemoveColorAfterSeconds(float seconds)
     {
         yield return new WaitForSeconds(seconds);
         mimicColor.color = UnityEngine.Color.black;
+    }
+    IEnumerator DieAfterSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        
+        Destroy(gameObject);
     }
 }

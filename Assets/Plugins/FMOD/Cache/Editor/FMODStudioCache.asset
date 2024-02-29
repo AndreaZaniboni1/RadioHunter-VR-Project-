@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8214506386794172811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../Users/zanna/Documents/FMOD Studio/Projects/Prova/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638440356887052299
-  FileSizes:
-  - Name: Desktop
-    Value: 2158
-  Exists: 1
 --- !u!114 &-8063783507888326188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +19,7 @@ MonoBehaviour:
     Data3: -476208239
     Data4: -1016745660
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -66,7 +46,7 @@ MonoBehaviour:
     Data3: -848781165
     Data4: -1621135621
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -93,7 +73,7 @@ MonoBehaviour:
     Data3: 691307196
     Data4: -1939133074
   Banks:
-  - {fileID: 301089564841757079}
+  - {fileID: 6720741543238630056}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -101,7 +81,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 20000
---- !u!114 &-6549473097875803005
+--- !u!114 &-7084303399763885375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,17 +90,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SONGS.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Spider/SpiderDeath
   m_EditorClassIdentifier: 
-  Path: ../../../../Users/zanna/Documents/FMOD Studio/Projects/Prova/Build/Desktop/SONGS.bank
-  Name: SONGS
-  StudioPath: bank:/SONGS
-  lastModified: 638435223285849865
-  FileSizes:
-  - Name: Desktop
-    Value: 5828544
-  Exists: 1
+  Path: event:/Spider/SpiderDeath
+  Guid:
+    Data1: -315180886
+    Data2: 1312587330
+    Data3: -1844427391
+    Data4: -60357750
+  Banks:
+  - {fileID: 6720741543238630056}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-5401266306303971290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +127,7 @@ MonoBehaviour:
     Data3: 327856798
     Data4: -836687707
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -167,7 +154,7 @@ MonoBehaviour:
     Data3: -1666756448
     Data4: 1065085245
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -194,7 +181,7 @@ MonoBehaviour:
     Data3: 364913571
     Data4: -118105765
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -202,6 +189,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3764539395059282422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Projects/Prova/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638434537853753202
+  FileSizes:
+  - Name: Desktop
+    Value: 1870464
+  Exists: 1
 --- !u!114 &-3181659371426622439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +228,7 @@ MonoBehaviour:
     Data3: -2006681450
     Data4: 419005411
   Banks:
-  - {fileID: -6549473097875803005}
+  - {fileID: -433497768737079061}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -248,7 +255,7 @@ MonoBehaviour:
     Data3: 858897593
     Data4: -1675236204
   Banks:
-  - {fileID: 301089564841757079}
+  - {fileID: 6720741543238630056}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -275,7 +282,7 @@ MonoBehaviour:
     Data3: 1865570460
     Data4: -950281430
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -302,8 +309,8 @@ MonoBehaviour:
     Data3: -702862947
     Data4: -624896800
   Banks:
-  - {fileID: -6549473097875803005}
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
+  - {fileID: -433497768737079061}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -330,7 +337,7 @@ MonoBehaviour:
     Data3: -432272975
     Data4: -474016143
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -357,7 +364,7 @@ MonoBehaviour:
     Data3: 209284284
     Data4: 99685080
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -365,7 +372,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 417
---- !u!114 &-704541087966017054
+--- !u!114 &-433497768737079061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -375,15 +382,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/SONGS.bank
   m_EditorClassIdentifier: 
-  Path: ../../../../Users/zanna/Documents/FMOD Studio/Projects/Prova/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638440356887035493
+  Path: ../../FMOD Studio/Projects/Prova/Build/Desktop/SONGS.bank
+  Name: SONGS
+  StudioPath: bank:/SONGS
+  lastModified: 638435223285849865
   FileSizes:
   - Name: Desktop
-    Value: 1486
+    Value: 5828544
   Exists: 1
 --- !u!114 &-409789254371222749
 MonoBehaviour:
@@ -404,7 +411,7 @@ MonoBehaviour:
     Data3: 2026672045
     Data4: -191260257
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -425,12 +432,12 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8214506386794172811}
-  - {fileID: -704541087966017054}
-  - {fileID: 6251669529714129763}
-  - {fileID: -6549473097875803005}
-  - {fileID: 3205170849716436704}
-  - {fileID: 301089564841757079}
+  - {fileID: 8223252196986222866}
+  - {fileID: -3764539395059282422}
+  - {fileID: 7679357109861487441}
+  - {fileID: 3693486647428351777}
+  - {fileID: -433497768737079061}
+  - {fileID: 6720741543238630056}
   EditorEvents:
   - {fileID: 7170962346424488341}
   - {fileID: -4566019367921417028}
@@ -455,33 +462,14 @@ MonoBehaviour:
   - {fileID: -8063783507888326188}
   - {fileID: -7884573376216323381}
   - {fileID: -1801880108252973831}
+  - {fileID: -7084303399763885375}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -704541087966017054}
+  - {fileID: 7679357109861487441}
   StringsBanks:
-  - {fileID: -8214506386794172811}
-  cacheTime: 638440358314280594
+  - {fileID: 8223252196986222866}
+  cacheTime: 638448139991479062
   cacheVersion: 131609
---- !u!114 &301089564841757079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SPIDER.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../Users/zanna/Documents/FMOD Studio/Projects/Prova/Build/Desktop/SPIDER.bank
-  Name: SPIDER
-  StudioPath: bank:/SPIDER
-  lastModified: 638440342353971045
-  FileSizes:
-  - Name: Desktop
-    Value: 315904
-  Exists: 1
 --- !u!114 &533516128720115458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,7 +489,7 @@ MonoBehaviour:
     Data3: 1554899087
     Data4: 805841704
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -528,7 +516,7 @@ MonoBehaviour:
     Data3: -950035274
     Data4: 1778342055
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -555,7 +543,7 @@ MonoBehaviour:
     Data3: 894650243
     Data4: 417932888
   Banks:
-  - {fileID: 301089564841757079}
+  - {fileID: 6720741543238630056}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -582,7 +570,7 @@ MonoBehaviour:
     Data3: 1083929987
     Data4: -637073255
   Banks:
-  - {fileID: 3205170849716436704}
+  - {fileID: -3764539395059282422}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -609,7 +597,7 @@ MonoBehaviour:
     Data3: -1597003332
     Data4: -1428763156
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -617,26 +605,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 200
---- !u!114 &3205170849716436704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../Users/zanna/Documents/FMOD Studio/Projects/Prova/Build/Desktop/Ambience.bank
-  Name: Ambience
-  StudioPath: bank:/Ambience
-  lastModified: 638434537853753202
-  FileSizes:
-  - Name: Desktop
-    Value: 1870464
-  Exists: 1
 --- !u!114 &3262916855918176144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -656,7 +624,7 @@ MonoBehaviour:
     Data3: -415447146
     Data4: -579220945
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -664,6 +632,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 600
+--- !u!114 &3693486647428351777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Projects/Prova/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638440358314280594
+  FileSizes:
+  - Name: Desktop
+    Value: 3728896
+  Exists: 1
 --- !u!114 &5666480957020087189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,7 +671,7 @@ MonoBehaviour:
     Data3: -1166033756
     Data4: -1845779360
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -710,7 +698,7 @@ MonoBehaviour:
     Data3: -1541434717
     Data4: -319208407
   Banks:
-  - {fileID: 3205170849716436704}
+  - {fileID: -3764539395059282422}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -718,26 +706,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 20600
---- !u!114 &6251669529714129763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../Users/zanna/Documents/FMOD Studio/Projects/Prova/Build/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638440358314280594
-  FileSizes:
-  - Name: Desktop
-    Value: 3728896
-  Exists: 1
 --- !u!114 &6638054222591870715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,7 +725,7 @@ MonoBehaviour:
     Data3: -1838990936
     Data4: 758530680
   Banks:
-  - {fileID: -6549473097875803005}
+  - {fileID: -433497768737079061}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -765,6 +733,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 144000
+--- !u!114 &6720741543238630056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SPIDER.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Projects/Prova/Build/Desktop/SPIDER.bank
+  Name: SPIDER
+  StudioPath: bank:/SPIDER
+  lastModified: 638448139991479062
+  FileSizes:
+  - Name: Desktop
+    Value: 347616
+  Exists: 1
 --- !u!114 &7170962346424488341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +772,7 @@ MonoBehaviour:
     Data3: 1736131988
     Data4: -1707020518
   Banks:
-  - {fileID: 6251669529714129763}
+  - {fileID: 3693486647428351777}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -792,3 +780,43 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1552
+--- !u!114 &7679357109861487441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Projects/Prova/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638448137793014497
+  FileSizes:
+  - Name: Desktop
+    Value: 1486
+  Exists: 1
+--- !u!114 &8223252196986222866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Projects/Prova/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638448137793034515
+  FileSizes:
+  - Name: Desktop
+    Value: 2206
+  Exists: 1
